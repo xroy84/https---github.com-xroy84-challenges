@@ -7,7 +7,7 @@
 <?php
 $resultado = "";
 
-$conn = new mysqli("localhost", "myhosteum", "C6kL4aDV", "test1", "3306");
+$conn = new mysqli("localhost", "user", "pass", "dbname", "3306");
 
 $ruta = '/usr/home/5T2rYoL5B4Q3/hosteum.com/web/';
 $fichero = $ruta.basename($_FILES['entrada']['name']);
